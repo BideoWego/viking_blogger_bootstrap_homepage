@@ -1,0 +1,16 @@
+// search
+
+#search-container {
+	margin-top: 30px;
+	margin-bottom: 10px;
+
+	form {
+		margin: auto;
+	}
+
+	@media only screen and (max-width: 992px) {
+		.col-md-3 {
+			margin-top: 8px;
+		}
+	}
+}

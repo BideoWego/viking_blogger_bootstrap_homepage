@@ -1,0 +1,58 @@
+// posts
+
+.post {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	border: 2px solid #ddd;
+	padding: 40px 0 80px 0;
+
+	h1 {
+		font-size: 24px;
+		margin: 0.5em 0;
+	}
+
+	.post-date-wrapper {
+		text-align: right;
+	}
+
+	time {
+		font-size: 14px;
+		color: #ccc;
+		display: block;
+		margin: 1em 0 1em auto;
+	}
+
+	.post-body {
+		font-size: 16px;
+		color: #444;
+		line-height: 1.25em;
+	}
+
+	.comment-links-wrapper {
+		margin-top: 32px;
+	}
+
+	.view-comments {
+		float: left;
+	}
+
+	.write-comment {
+		float: right;
+	}
+
+	.post-photo-wrapper {
+		width: 100%;
+		height: 450px;
+		background: #eee;
+		padding: 225px;
+
+		img {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			height: 200px;
+			width: 200px;
+			transform: translateY(-50%);
+		}
+	}
+}
